@@ -36,13 +36,13 @@
 	
 	</dependencies>
 	
-	 <build>
+<!-- 	 <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <!-- tag::plugin[] -->
+            tag::plugin[]
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
@@ -59,11 +59,11 @@
                     </resources>
                 </configuration>
             </plugin>
-            <!-- end::plugin[] -->
+            end::plugin[]
         </plugins>
-    </build>
+    </build> -->
 	
-	<!-- <build>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -84,5 +84,5 @@
 			</plugin>
 		
 		</plugins>
-	</build> -->
+	</build> 
 </project>

@@ -1,6 +1,7 @@
 com\vdong\restful\request\CurrencyParamRequest$TrajectoryQuery.class
 com\vdong\restful\response\LogisticFormRequest.class
 com\vdong\restful\response\OrderFreightReponse.class
+com\vdong\restful\util\MD5Tools.class
 com\vdong\restful\service\impl\ShipperApiServiceImpl.class
 com\vdong\restful\controller\OrderFreightController.class
 com\vdong\restful\request\TemplateRequest.class
@@ -8,13 +9,14 @@ com\vdong\restful\service\TemplateApiService.class
 com\vdong\restful\async\LogisticFormAsync.class
 com\vdong\restful\service\impl\TemplateApiServiceImpl.class
 com\vdong\restful\request\OrderInformationRequest.class
-com\vdong\restful\request\SupplierTemplateAddRequest.class
 com\vdong\restful\request\CurrencyParamRequest$FindByUserId.class
 com\vdong\restful\response\Response.class
 com\vdong\restful\response\ExceptionMessage.class
+com\vdong\restful\exception\JurisdictionException.class
 com\vdong\restful\response\AllTracesRequest.class
 com\vdong\restful\request\CurrencyParamRequest$SaveTemplateStateById.class
 com\vdong\runner\DictionaryTableRunner.class
+com\vdong\restful\Interceptor\TokenInterceptor.class
 com\vdong\restful\controller\TemplateController.class
 com\vdong\restful\controller\ShipperController.class
 com\vdong\restful\request\CurrencyParamRequest$FindByTemplateId.class
@@ -32,5 +34,6 @@ com\vdong\restful\response\SupplierTemplateQuerResponse.class
 com\vdong\restful\response\OneTeplate.class
 com\vdong\restful\request\CurrencyParamRequest$FindByUserIdAndState.class
 com\vdong\SupportServiceApplication.class
+com\vdong\restful\CustomWebMvcConfigurerAdapter.class
 com\vdong\restful\service\ShipperApiService.class
 com\vdong\restful\ObjectMapperConfig.class

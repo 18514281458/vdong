@@ -53,7 +53,11 @@ public class ExceptionHandlers {
 						.add(ExceptionMessage.putMessage(GlobalStaticVariable.VALIDATION, error.getDefaultMessage()));
 			}
 			return Response.fail(invalidArguments);
-		} else if (e instanceof BindException) {
+		} else if (e instanceof JurisdictionException) {
+			return Response.failMessage(GlobalStaticVariable.VALIDATION, e.getMessage());
+		}
+
+		else if (e instanceof BindException) {
 			List<ExceptionMessage> invalidArguments = new ArrayList<ExceptionMessage>();
 
 			for (FieldError error : ((BindException) e).getBindingResult().getFieldErrors()) {
