@@ -21,9 +21,9 @@ import com.vdong.restful.service.TemplateApiService;
 public class OrderFreightController {
 
 	@Autowired
-	TemplateApiService templateApiService;
+	private TemplateApiService templateApiService;
 	@Autowired
-	ShipperFunctionService shipperFunctionService;
+	private ShipperFunctionService shipperFunctionService;
 
 	@RequestMapping(value = "/getOneOrderFreights.json", method = RequestMethod.POST)
 	public Response getOrderFreighsts(@Valid @RequestBody OrderInformationRequest orderInformationRequest) {

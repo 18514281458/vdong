@@ -18,7 +18,7 @@ import com.vdong.restful.util.MD5Tools;
 public class TokenInterceptor implements HandlerInterceptor {
 
 	@Autowired
-	UsersService usersService;
+	private UsersService usersService;
 
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)

@@ -11,7 +11,7 @@ import com.vdong.restful.interceptor.TokenInterceptor;
 public class CustomWebMvcConfigurerAdapter extends WebMvcConfigurerAdapter {
 
 	@Autowired
-	TokenInterceptor tokenInterceptor;
+	private TokenInterceptor tokenInterceptor;
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {

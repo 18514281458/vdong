@@ -11,7 +11,7 @@ import com.vdong.admin.service.LogisticFormService;
 public class LogisticFormAsync {
 
 	@Autowired
-	LogisticFormService logisticFormService;
+	private LogisticFormService logisticFormService;
 
 	/**
 	 * 插入签收运单数据

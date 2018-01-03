@@ -12,7 +12,7 @@ import com.vdong.restful.service.ShipperApiService;
 public class ShipperController {
 
 	@Autowired
-	ShipperApiService shipperApiService;
+	private ShipperApiService shipperApiService;
 
 	/**
 	 * 查询服务商支持的快递公司

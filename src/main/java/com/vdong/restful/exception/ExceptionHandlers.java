@@ -27,7 +27,7 @@ import com.vdong.restful.staticVariable.GlobalStaticVariable;
 @RestController
 public class ExceptionHandlers {
 
-	Logger logger = Logger.getLogger(ExceptionHandlers.class);
+	private Logger logger = Logger.getLogger(ExceptionHandlers.class);
 
 	/**
 	 * 系统异常处理，比如：404,500

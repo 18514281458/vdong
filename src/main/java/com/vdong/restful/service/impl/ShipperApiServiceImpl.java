@@ -14,7 +14,7 @@ import com.vdong.restful.service.ShipperApiService;
 public class ShipperApiServiceImpl implements ShipperApiService {
 
 	@Autowired
-	ShipperService shipperService;
+	private ShipperService shipperService;
 
 	@Override
 	public Response findByApplicationId(int applicationId) {

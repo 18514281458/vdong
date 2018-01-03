@@ -32,10 +32,10 @@ import com.vdong.restful.staticVariable.GlobalStaticVariable;
 public class TemplateApiServiceImpl implements TemplateApiService {
 
 	@Autowired
-	ShipperService shipperService;
+	private ShipperService shipperService;
 
 	@Autowired
-	TemplateService templateService;
+	private TemplateService templateService;
 
 	@Override
 	public Response add(TemplateRequest templateRequest) {

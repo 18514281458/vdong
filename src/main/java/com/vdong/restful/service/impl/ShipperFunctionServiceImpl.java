@@ -32,17 +32,17 @@ import com.vdong.supplier.service.supplierbird.PostQueryClassService;
 public class ShipperFunctionServiceImpl implements ShipperFunctionService {
 
 	@Autowired
-	PostQueryClassService postQueryClassService;
+	private PostQueryClassService postQueryClassService;
 	@Autowired
-	ShipperService shipperService;
+	private ShipperService shipperService;
 	@Autowired
-	ShipperApplicationService shipperApplicationService;
+	private ShipperApplicationService shipperApplicationService;
 	@Value("${kuaidn.requestType}")
-	String requestType;
+	private String requestType;
 	@Autowired
-	LogisticFormService logisticFormService;
+	private LogisticFormService logisticFormService;
 	@Autowired
-	LogisticFormAsync logisticFormAsync;
+	private LogisticFormAsync logisticFormAsync;
 
 	@Override
 

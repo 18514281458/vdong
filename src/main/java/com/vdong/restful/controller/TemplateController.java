@@ -24,7 +24,7 @@ import com.vdong.restful.service.TemplateApiService;
 public class TemplateController {
 
 	@Autowired
-	TemplateApiService templateService;
+	private TemplateApiService templateService;
 
 	/**
 	 * 添加模板
