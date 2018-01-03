@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import com.vdong.restful.Interceptor.TokenInterceptor;
+import com.vdong.restful.interceptor.TokenInterceptor;
 
 @Configuration
 public class CustomWebMvcConfigurerAdapter extends WebMvcConfigurerAdapter {

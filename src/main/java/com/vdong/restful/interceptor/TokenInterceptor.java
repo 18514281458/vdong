@@ -1,4 +1,4 @@
-package com.vdong.restful.Interceptor;
+package com.vdong.restful.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
